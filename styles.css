@@ -1,0 +1,14 @@
+.bg-image-1{
+    background: url(assets/images/image-3.jpg);
+    
+    /* cover imagen no se sobredimensiona */
+    background-size: 100% ;
+    background-position: 0 -20rem;
+    height: 600px;
+   
+}
+
+.overlay{
+    background: rgba(0, 0, 0, 0.507);
+    
+}
