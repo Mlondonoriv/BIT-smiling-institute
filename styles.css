@@ -2,13 +2,25 @@
     background: url(assets/images/image-3.jpg);
     
     /* cover imagen no se sobredimensiona */
-    background-size: 100% ;
-    background-position: 0 -20rem;
-    height: 600px;
+    background-size: cover ;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
    
 }
 
 .overlay{
     background: rgba(0, 0, 0, 0.507);
     
+}
+
+.glass-effect
+
+@media ( max-width:768px)
+{
+    .bg-image-1{
+        height: 600px;
+ 
+
+    }
 }
