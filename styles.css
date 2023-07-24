@@ -1,20 +1,17 @@
-.bg-image-1{
-    background: url(assets/images/image-3.jpg);
-    
-    /* cover imagen no se sobredimensiona */
-    background-size: 100% ;
-    background-position: 0 -20rem;
-    height: 600px;
-   
+.bg-image-1 {
+  background: url(assets/images/image-3.jpg);
+
+  /* cover imagen no se sobredimensiona */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
 }
 
-.overlay{
-    background: rgba(0, 0, 0, 0.507);
-    
+.overlay {
+  background: rgba(0, 0, 0, 0.507);
 }
 
-.coments:hover{
-    cursor: pointer;
-
-
+.coments:hover {
+  cursor: pointer;
 }
